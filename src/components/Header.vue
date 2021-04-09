@@ -3,12 +3,18 @@
     <h1>
       {{ title }}
     </h1>
+    <Button text="+" color="silver" />
   </header>
 </template>
 
 <script>
+import Button from './Button'
+
 export default {
   name: 'Header',
+  components: {
+    Button
+  },
   props: {
     title: String
   }

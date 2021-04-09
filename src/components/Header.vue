@@ -3,7 +3,7 @@
     <h1>
       {{ title }}
     </h1>
-    <Button text="+" color="silver" />
+    <Button text="Add Task" color="#f4f4f4" />
   </header>
 </template>
 

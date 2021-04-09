@@ -24,7 +24,6 @@ export default {
   border: 2px solid black;
   color: black;
   cursor: pointer;
-  border-radius: 50%;
 }
 .outline {
   border-color: #4caf50;

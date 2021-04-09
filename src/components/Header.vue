@@ -1,15 +1,18 @@
 <template>
   <header>
     <h1>
-      Task Mask
+      {{ title }}
     </h1>
   </header>
 </template>
 
 <script>
 export default {
-  name: "Header",
-};
+  name: 'Header',
+  props: {
+    title: String
+  }
+}
 </script>
 
 <style scoped>

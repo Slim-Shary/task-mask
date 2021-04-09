@@ -22,7 +22,10 @@ export default {
 <style scoped>
 .btn {
   border: 2px solid black;
-  color: black;
+  background-color: #f4f4f4;
+  color: #f4f4f4;
+}
+.btn:hover {
   cursor: pointer;
 }
 .outline {

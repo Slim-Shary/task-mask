@@ -1,5 +1,5 @@
 <template>
-  <button @click="onClick()" :style="{ background: color }" class="btn outline">
+  <button @click="onClick()" :style="{ background: color }" class="btn">
     {{ text }}
   </button>
 </template>
@@ -13,23 +13,8 @@ export default {
   },
   methods: {
     onClick() {
-      console.log('pushed button')
+      this.$emit('btn-click')
     }
   }
 }
 </script>
-
-<style scoped>
-.btn {
-  border: 2px solid black;
-  background-color: #f4f4f4;
-  color: #f4f4f4;
-}
-.btn:hover {
-  cursor: pointer;
-}
-.outline {
-  border-color: #4caf50;
-  color: green;
-}
-</style>

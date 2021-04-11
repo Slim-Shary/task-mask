@@ -5,7 +5,12 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Running json-server (backend)
+```
+npm run backend
+```
+
+### Running the Vue app
 ```
 npm run serve
 ```
@@ -15,5 +20,7 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### RESTful API Database
+db.json file contains the initial database
+
+You can do CRUD operations to this database
